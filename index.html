@@ -11,9 +11,11 @@
 
 <body>
 	<h3 style='text-align: center;'>Vimeo Video Downloader</h3>
-	<div class='main'>
-		<input type="text" class='urlInput' placeholder='Enter video url'>
-		<button class='getLinks'>Get Links</button>
+	<div class='main input-group'>
+		<input type="text" class="form-control urlInput" placeholder="Enter video url" aria-label="Enter video url" aria-describedby="button-addon2">
+		<div class="input-group-append">
+			<button class="btn btn-outline-secondary getLinks" type="button" id="button-addon2">Get Links</button>
+		</div>
 	</div>
 	<div id="output" style='text-align: center;'>Copy the link and paste and click the button.</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
