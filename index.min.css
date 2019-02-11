@@ -1,1 +1,1 @@
-body{margin:0 20px}#output{padding:0 10px;margin-top:15px}#output .loading,#output footer,#output section{display:none}#output .download h2{text-align:center}@media screen and (max-width:380px){#output .download h2{font-size:20px}#output .download p{font-size:14px;line-height:1.3}}
+#output .download h2,.main{text-align:center}body{margin:0 20px}#output{padding:0 10px;margin-top:15px}#output .loading,#output footer,#output section{display:none}@media screen and (max-width:380px){#output .download h2{font-size:20px}#output .download p{font-size:14px;line-height:1.3}}
