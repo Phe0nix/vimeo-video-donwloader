@@ -1,6 +1,9 @@
 body{
   margin: 0 20px;
 }
+.main{
+  text-align: center;
+}
 #output{
   padding: 0 10px;
   margin-top: 15px;
