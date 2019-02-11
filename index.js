@@ -1,11 +1,11 @@
-!(function() {
+g!(function() {
     var btn = document.querySelector('.getLinks'),
         input = document.querySelector('.urlInput'),
         links;
 
     links = () => {
         var put = document.querySelector('#output');
-        put.innerHTML = 'Loading the video...';
+        put.innerHTML = 'Fetching the video informations...';
         fetch(`https://ripsave.com/download?video=${input.value}`)
             .then(d => d.text())
             .then(d => {
