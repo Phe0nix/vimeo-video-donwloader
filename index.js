@@ -1,8 +1,9 @@
 !(function() {
     var btn = document.querySelector('.getLinks'),
-        input = document.querySelector('.urlInput');
+        input = document.querySelector('.urlInput'),
+        links;
 
-    var links = () => {
+    links = () => {
         var put = document.querySelector('#output');
         put.innerHTML = 'Loading the video...';
         fetch(`https://ripsave.com/download?video=${input.value}`)
@@ -16,9 +17,7 @@
                     }
                 });
             })
-            .catch(err => console.log(err.message));
-
-        //console.log(addClass);
+            .catch(err => console.log(`Error is: ${err.name} and Error message is: ${err.message}`));
     }
 
     btn.onclick = links;
