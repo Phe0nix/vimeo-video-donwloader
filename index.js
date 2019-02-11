@@ -1,4 +1,4 @@
-g!(function() {
+!(function() {
     var btn = document.querySelector('.getLinks'),
         input = document.querySelector('.urlInput'),
         links;
