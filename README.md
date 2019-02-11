@@ -1,4 +1,6 @@
 # vimeo-video-donwloader
+### Demo - [Vimeo Video Downloader](https://phe0nix.github.io/vimeo-video-donwloader/)
+### Steps: 
 1. Open vimeo.com and click any video.
 2. Copy the full url from address bar.
 > ![Like this](https://raw.githubusercontent.com/Phe0nix/vimeo-video-donwloader/master/img/vimeo%20url%20bar.PNG "vimeo url pic")
