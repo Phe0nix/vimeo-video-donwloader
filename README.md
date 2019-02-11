@@ -1,7 +1,7 @@
 # vimeo-video-donwloader
 1. Open vimeo.com and click any video.
 2. Copy the full url from address bar.
-> ![Like this](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "vimeo url pic")
+> ![Like this](https://raw.githubusercontent.com/Phe0nix/vimeo-video-donwloader/master/img/vimeo%20url%20bar.PNG "vimeo url pic")
 #### OR
 1. After oprn the video, click the share icon.
 > ![Like this](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "vimeo share icon pic")
