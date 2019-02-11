@@ -3,7 +3,7 @@
 2. Copy the full url from address bar.
 > ![Like this](https://raw.githubusercontent.com/Phe0nix/vimeo-video-donwloader/master/img/vimeo%20url%20bar.PNG "vimeo url pic")
 ### OR
-1. After oprn the video, click the share icon.
+1. After open the video, click the share icon.
 > ![Like this](https://raw.githubusercontent.com/Phe0nix/vimeo-video-donwloader/master/img/vimeo%20share%20icon.PNG "vimeo share icon pic")
 2. and copy the entire url.
 > ![Like this](https://raw.githubusercontent.com/Phe0nix/vimeo-video-donwloader/master/img/vimeo%20share%20url.PNG "vimeo share icon pic")
