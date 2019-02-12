@@ -32,10 +32,12 @@
                     console.log(titleNode);
                     heading.className = 'alert alert-primary vimeoVideosTitle';
                     if (p.querySelector('.download') === null) {
-                        put.innerHTML = 'Please check the URL once. <br>It returns null means nothing is in there.'
+                        put.innerHTML = 'Please recheck the URL once. <br>It return null means nothing is in there.'
                     }
-                    put.appendChild(heading);
-                    put.appendChild(p);
+                    else{
+                        put.appendChild(heading);
+                        put.appendChild(p);
+                    }
                     var titleNode = Array.from(p.querySelectorAll('.vimeoVideos title'));
                     titleNode.forEach(d => heading.innerHTML = d.innerHTML.split('Download: ')[1]);
                 })
