@@ -37,7 +37,6 @@
                     put.appendChild(heading);
                     put.appendChild(p);
                     var titleNode = Array.from(p.querySelectorAll('.vimeoVideos title'));
-                    //console.log(titleNode);
                     titleNode.forEach(d => heading.innerHTML = d.innerHTML.split('Download: ')[1]);
                 })
             }))
@@ -54,11 +53,8 @@
     single.onclick = () => {
         if (!single.classList.contains('active')) {
             put.innerHTML = 'Copy the link and paste and click the button.';
-            //input.value = '';
             single.classList.add('active');
             multiple.classList.remove('active');
-            //     input.classList.remove('hide');
-            //     textarea.classList.add('hide');
             p.innerHTML = '<input type="text" class="form-control urlInput input" placeholder="Enter video url" aria-label="Enter video url" aria-describedby="button-addon2"><div class="input-group-append"><button class="btn btn-secondary getLinks" type="button" id="button-addon2">Get Links</button></div>';
         }
         btn = document.querySelector('.getLinks');
@@ -75,11 +71,9 @@
     }
     multiple.onclick = () => {
         if (!multiple.classList.contains('active')) {
-            put.innerHTML = 'Copy the link and paste and click the button.';
+            put.innerHTML = 'Copy the link and paste and click the button.<br>Separate videos with comma(,) only<br>Example: https://vimeo.co.. , https://vimeo.co..';
             multiple.classList.add('active');
             single.classList.remove('active');
-            //     textarea.classList.remove('hide');
-            //     input.classList.add('hide');
             p.innerHTML = '<textarea name="urls" cols="30" rows="5" class="form-control urlInput textarea" aria-label="Enter videos url" aria-describedby="button-addon2"></textarea><div class="input-group-append"><button class="btn btn-secondary getLinks" type="button" id="button-addon2">Get Links</button></div>';
         }
         btn = document.querySelector('.getLinks');
