@@ -1,27 +1,44 @@
-body{
-  margin: 0 20px;
+body {
+   margin: 0 20px
 }
 .main{
-  text-align: center;
+  width: 370px; margin: auto;
+  margin-top: 20px;
 }
-#output{
-  padding: 0 10px;
-  margin-top: 15px;
+.main .buttons{
+  display: flex; justify-content: space-between;
+  margin-bottom: 5px;
 }
-#output section,
-#output footer,
-#output .loading {
+.main .buttons .btn{
+  flex: 1;
+}
+.main .form-control.hide{
   display: none;
 }
-#output .download h2{
-  text-align: center;
+#output {
+   padding: 0 10px;
+   margin-top: 15px
 }
-@media screen and (max-width: 380px){
-  #output .download h2{
-    font-size: 20px;
-  }
-  #output .download p{
-    font-size: 14px;
-    line-height: 1.3
+#output .download h2,
+#output .download p{
+  display: none;
+}
+#output .download .row p{
+  display: block;
+}
+#output .loading,
+#output footer,
+#output section {
+   display: none
+}
+@media screen and (max-width: 400px) {
+  .main{
+    width: 100%;
+  } 
+  #output .download p {
+      font-size: 14px;
+   }
+  #output .vimeoVideosTitle{
+    font-size: 18px;
   }
 }
