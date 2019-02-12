@@ -11,10 +11,16 @@
 
 <body>
 	<h3 style='text-align: center;'>Vimeo Video Downloader</h3>
-	<div class='main input-group alert alert-secondary' style="width: 370px; margin: auto;">
-		<input type="text" class="form-control urlInput" placeholder="Enter video url" aria-label="Enter video url" aria-describedby="button-addon2">
-		<div class="input-group-append">
-			<button class="btn btn-secondary getLinks" type="button" id="button-addon2">Get Links</button>
+	<div class='main alert alert-secondary'>
+    	<div class="buttons">
+      		<button class='btn btn-outline-primary single active'>Single</button>
+      		<button class='btn btn-outline-primary multiple'>Multiple</button>
+    	</div>
+		<div class="urlsBtn input-group">
+			<input type="text" class="form-control urlInput input" placeholder="Enter video url" aria-label="Enter video url" aria-describedby="button-addon2">
+    		<div class="input-group-append">
+				<button class="btn btn-secondary getLinks" type="button" id="button-addon2">Get Links</button>
+			</div>
 		</div>
 	</div>
 	<div id="output" style='text-align: center;'>Copy the link and paste and click the button.</div>
