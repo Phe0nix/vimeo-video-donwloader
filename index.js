@@ -10,7 +10,6 @@
 
     var links = () => {
         put.innerHTML = 'Fetching the video informations...';
-        //   var urls = ['https://ripsave.com/download?video=https://vimeo.com/305839334','https://ripsave.com/download?video=https://vimeo.com/86359067','https://ripsave.com/download?video=https://vimeo.com/131777414'];
         n = document.querySelector(".urlInput");
         var urlSplit = n.value.split(',').map(d => d.trim());
         var urls = urlSplit.map(d => 'https://ripsave.com/download?video=' + d);
