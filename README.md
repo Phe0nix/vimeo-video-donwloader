@@ -1,5 +1,5 @@
 # vimeo-video-donwloader
-### Demo - [Vimeo Video Downloader](https://phe0nix.github.io/vimeo-video-donwloader/)
+### Demo - [Vimeo Video Downloader](https://phe0nix.github.io/vimeo-video-downloader/)
 Download single and multiple vimeo videos at once. Just copy the video url from address bar and paste it into the text field and click 'Get link' button to generate download links.
 
 See the steps below in picture format.
