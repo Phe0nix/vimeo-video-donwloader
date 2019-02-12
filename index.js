@@ -32,7 +32,7 @@
                     console.log(titleNode);
                     heading.className = 'alert alert-primary vimeoVideosTitle';
                     if (p.querySelector('.download') === null) {
-                        put.innerHTML = 'Please recheck the URL once. <br>It return null means nothing is in there.'
+                        put.innerHTML = '<p class="alert alert-danger">Please recheck the URL once. <br>It failed to fetch the video</p>';
                     }
                     else{
                         put.appendChild(heading);
