@@ -19,3 +19,4 @@ Happy Downloading...
 4. If you want to put multiple urls at once, separate them with comma(,) only otherwise not able to fetch the video.
 5. Then click the 'Get links' button to generate download links.
 6. When the response is showing, go to below and click the download button of which resolution video you want to download.
+
